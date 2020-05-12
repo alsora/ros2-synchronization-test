@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>ros2_synchro_perf</name>
+  <version>0.8.3</version>
+  <description>The ROS client library in C++.</description>
+  <maintainer email="asoragna@irobot.com">Alberto Soragna</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclcpp</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
