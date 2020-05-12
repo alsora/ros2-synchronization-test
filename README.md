@@ -10,8 +10,8 @@ The difference between the applications is only how the synchronization primitiv
 Results for a RaspberryPi 3 board:
 
  - `std::condition_variable` : 1.8% CPU usage
- - `rcl_guard_condition` : 2.9% CPU usage
- - `rclcpp::GuardCondition` : 2.9% CPU usage
+ - `rcl_guard_condition` + `rcl_waitset` : 2.9% CPU usage
+ - `rclcpp::GuardCondition` + `rclcpp::Waiset` : 2.9% CPU usage
 
 
 
