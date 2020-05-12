@@ -1,7 +1,7 @@
 # ros2-synchronization-test
 Performance evaluation of different synchronization approaches in ROS 2
 
-These repository contains dummy applications that perform this task: spawn a producer and a consumer thread and let the producer push data into a buffer while the consumer waits for new data and reads it when available.
+This repository contains 3 dummy applications that perform the following task: spawn a producer and a consumer thread and let the producer push data into a buffer while the consumer waits for new data and reads it when available.
 
 Data is pused into the queue at 100Hz frequency.
 
